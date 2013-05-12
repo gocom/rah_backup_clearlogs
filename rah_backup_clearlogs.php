@@ -25,4 +25,3 @@
 	function rah_backup__clearlogs() {
 		@safe_query('TRUNCATE TABLE '.safe_pfx('txp_log'));
 	}
-?>
