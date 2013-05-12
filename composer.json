@@ -1,0 +1,24 @@
+{
+	"name": "rah/rah_backup_clearlogs",
+	"description": "Clear logs module for rah_terminal",
+	"keywords": ["textpattern", "plugin"],
+	"homepage": "https://github.com/gocom/rah_backup_clearlogs",
+	"license": "GPL-2.0",
+	"type": "textpattern-plugin",
+	"authors": [
+		{
+			"name": "Jukka Svahn",
+			"homepage": "http://rahforum.biz",
+			"role": "Developer"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/gocom/rah_backup_clearlogs/issues",
+		"source": "https://github.com/gocom/rah_backup_clearlogs"
+	},
+	"require": {
+		"textpattern/lock": "4.6.*@dev,>=4.6.0",
+		"textpattern/installer": "*",
+		"rah/rah_backup": "*@dev"
+	}
+}
