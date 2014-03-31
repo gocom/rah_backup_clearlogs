@@ -16,7 +16,7 @@
  * http://www.gnu.org/licenses/gpl-2.0.html
  */
 
-class rah_backup_clearlogs
+class Rah_Backup_ClearLogs
 {
 	/**
 	 * Constructor.
@@ -24,17 +24,17 @@ class rah_backup_clearlogs
 
 	public function __construct()
 	{
-		register_callback(array($this, 'clear'), 'rah_backup.create');
+		register_callback(array($this, 'clearLogs'), 'rah_backup.create');
 	}
 
 	/**
 	 * Empties txp_log table.
 	 */
 
-	public function clear()
+	public function clearLogs()
 	{
 		@safe_query('truncate table '.safe_pfx('txp_log'));
 	}
 }
 
-new rah_backup_clearlogs();
+new Rah_Backup_ClearLogs();
