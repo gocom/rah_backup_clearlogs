@@ -9,7 +9,7 @@
  *
  * @author  Jukka Svahn
  * @license GNU GPLv2
- * @link    https://github.com/gocom/rah_backup_clearlogs
+ * @link	https://github.com/gocom/rah_backup_clearlogs
  *
  * Copyright (C) 2013 Jukka Svahn http://rahforum.biz
  * Licensed under GNU General Public License version 2
