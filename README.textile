@@ -1,14 +1,14 @@
 h1. Clear logs module for rah_backup
 
-p. "Packagist":https://packagist.org/packages/rah/rah_backup_clearlogs | "Twitter":http://twitter.com/gocom | "Donate":http://rahforum.biz/donate/rah_backup_clearlogs
+"Packagist":https://packagist.org/packages/rah/rah_backup_clearlogs | "Twitter":http://twitter.com/gocom | "Donate":http://rahforum.biz/donate/rah_backup_clearlogs
 
-p. Empties visitor logs before taking a backup with "rah_backup":https://github.com/gocom/rah_backup. The module will empty the actual table, not just records from backup files. Current visitor logs will be permanently lost.
+Empties visitor logs before taking a backup with "rah_backup":https://github.com/gocom/rah_backup. The module will empty the actual table, not just records from backup files. Current visitor logs will be permanently lost.
 
 h2. Installing
 
-p. Using "Composer":http://getcomposer.org:
+Using "Composer":http://getcomposer.org:
 
-bc. $ composer.phar require rah/rah_backup_clearlogs
+bc. $ composer require rah/rah_backup_clearlogs:*
 
 h2. Changelog
 
