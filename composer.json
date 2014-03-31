@@ -17,7 +17,6 @@
 		"source": "https://github.com/gocom/rah_backup_clearlogs"
 	},
 	"require": {
-		"textpattern/lock": "*",
 		"textpattern/installer": "*",
 		"rah/rah_backup": "*"
 	}
