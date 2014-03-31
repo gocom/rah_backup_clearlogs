@@ -4,7 +4,7 @@ h1. Clear logs module for rah_backup
 
 Empties visitor logs before taking a backup with "rah_backup":https://github.com/gocom/rah_backup. The module will empty the actual table, not just records from backup files. Current visitor logs will be permanently lost.
 
-h2. Installing
+h2. Install
 
 Using "Composer":http://getcomposer.org:
 
